@@ -173,6 +173,33 @@ color: rgba(175, 98, 67, 0.95);
 
 }
 
+.tumbochka{
+    max-width: 2560px;
+    max-height: fit-content;
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,minmax(300px,1fr));
+    grid-template-rows: minmax(250px,auto);
+    
+    grid-gap: 20px;
+   
+    
+    width: 100%;
+
+}
+
+.tumbochka > div{
+   
+    color: beige;
+    padding: 30px;
+    font-family: Georgia, serif;
+  
+    text-transform: none;
+    border-radius: 8px;
+    
+
+}
+
 .poko a{
     width: 100%;
     height: 100%;
