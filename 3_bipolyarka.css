@@ -172,3 +172,29 @@ header{
 color: rgba(175, 98, 67, 0.95);
 
 }
+
+.poko a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+
+}
+
+.poko img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.poko h1{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+
+
+}
